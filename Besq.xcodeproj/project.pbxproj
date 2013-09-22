@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14A5C2AF17EDFAAA009937F4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A5C2AE17EDFAAA009937F4 /* Cocoa.framework */; };
+		14A5C2B917EDFAAA009937F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14A5C2B717EDFAAA009937F4 /* InfoPlist.strings */; };
+		14A5C2BB17EDFAAA009937F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A5C2BA17EDFAAA009937F4 /* main.m */; };
+		14A5C2C217EDFAAA009937F4 /* BEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A5C2C117EDFAAA009937F4 /* BEAppDelegate.m */; };
+		14A5C2C517EDFAAA009937F4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14A5C2C317EDFAAA009937F4 /* MainMenu.xib */; };
+		14A5C2C717EDFAAA009937F4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14A5C2C617EDFAAA009937F4 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		148590DA17EE6ADF00C22B61 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		14A5C2AB17EDFAAA009937F4 /* Besq.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Besq.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14A5C2AE17EDFAAA009937F4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		14A5C2B117EDFAAA009937F4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		14A5C2B217EDFAAA009937F4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		14A5C2B317EDFAAA009937F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		14A5C2B617EDFAAA009937F4 /* Besq-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Besq-Info.plist"; sourceTree = "<group>"; };
+		14A5C2B817EDFAAA009937F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		14A5C2BA17EDFAAA009937F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14A5C2BC17EDFAAA009937F4 /* Besq-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Besq-Prefix.pch"; sourceTree = "<group>"; };
+		14A5C2C017EDFAAA009937F4 /* BEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BEAppDelegate.h; sourceTree = "<group>"; };
+		14A5C2C117EDFAAA009937F4 /* BEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BEAppDelegate.m; sourceTree = "<group>"; };
+		14A5C2C417EDFAAA009937F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		14A5C2C617EDFAAA009937F4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		14A5C2CD17EDFAAA009937F4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14A5C2A817EDFAAA009937F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14A5C2AF17EDFAAA009937F4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14A5C2A217EDFAA9009937F4 = {
+			isa = PBXGroup;
+			children = (
+				14A5C2B417EDFAAA009937F4 /* Besq */,
+				14A5C2AD17EDFAAA009937F4 /* Frameworks */,
+				14A5C2AC17EDFAAA009937F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14A5C2AC17EDFAAA009937F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14A5C2AB17EDFAAA009937F4 /* Besq.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14A5C2AD17EDFAAA009937F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				148590DA17EE6ADF00C22B61 /* CoreAudio.framework */,
+				14A5C2AE17EDFAAA009937F4 /* Cocoa.framework */,
+				14A5C2CD17EDFAAA009937F4 /* XCTest.framework */,
+				14A5C2B017EDFAAA009937F4 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		14A5C2B017EDFAAA009937F4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14A5C2B117EDFAAA009937F4 /* AppKit.framework */,
+				14A5C2B217EDFAAA009937F4 /* CoreData.framework */,
+				14A5C2B317EDFAAA009937F4 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		14A5C2B417EDFAAA009937F4 /* Besq */ = {
+			isa = PBXGroup;
+			children = (
+				14A5C2C017EDFAAA009937F4 /* BEAppDelegate.h */,
+				14A5C2C117EDFAAA009937F4 /* BEAppDelegate.m */,
+				14A5C2C317EDFAAA009937F4 /* MainMenu.xib */,
+				14A5C2C617EDFAAA009937F4 /* Images.xcassets */,
+				14A5C2B517EDFAAA009937F4 /* Supporting Files */,
+			);
+			path = Besq;
+			sourceTree = "<group>";
+		};
+		14A5C2B517EDFAAA009937F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14A5C2B617EDFAAA009937F4 /* Besq-Info.plist */,
+				14A5C2B717EDFAAA009937F4 /* InfoPlist.strings */,
+				14A5C2BA17EDFAAA009937F4 /* main.m */,
+				14A5C2BC17EDFAAA009937F4 /* Besq-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14A5C2AA17EDFAAA009937F4 /* Besq */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14A5C2DC17EDFAAB009937F4 /* Build configuration list for PBXNativeTarget "Besq" */;
+			buildPhases = (
+				14A5C2A717EDFAAA009937F4 /* Sources */,
+				14A5C2A817EDFAAA009937F4 /* Frameworks */,
+				14A5C2A917EDFAAA009937F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Besq;
+			productName = Besq;
+			productReference = 14A5C2AB17EDFAAA009937F4 /* Besq.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14A5C2A317EDFAA9009937F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BE;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Petroules Corporation";
+			};
+			buildConfigurationList = 14A5C2A617EDFAAA009937F4 /* Build configuration list for PBXProject "Besq" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14A5C2A217EDFAA9009937F4;
+			productRefGroup = 14A5C2AC17EDFAAA009937F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14A5C2AA17EDFAAA009937F4 /* Besq */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14A5C2A917EDFAAA009937F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14A5C2B917EDFAAA009937F4 /* InfoPlist.strings in Resources */,
+				14A5C2C717EDFAAA009937F4 /* Images.xcassets in Resources */,
+				14A5C2C517EDFAAA009937F4 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14A5C2A717EDFAAA009937F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14A5C2BB17EDFAAA009937F4 /* main.m in Sources */,
+				14A5C2C217EDFAAA009937F4 /* BEAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		14A5C2B717EDFAAA009937F4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14A5C2B817EDFAAA009937F4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		14A5C2C317EDFAAA009937F4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14A5C2C417EDFAAA009937F4 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14A5C2DA17EDFAAB009937F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		14A5C2DB17EDFAAB009937F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+			};
+			name = Release;
+		};
+		14A5C2DD17EDFAAB009937F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Besq/Besq-Prefix.pch";
+				INFOPLIST_FILE = "Besq/Besq-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		14A5C2DE17EDFAAB009937F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Besq/Besq-Prefix.pch";
+				INFOPLIST_FILE = "Besq/Besq-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14A5C2A617EDFAAA009937F4 /* Build configuration list for PBXProject "Besq" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14A5C2DA17EDFAAB009937F4 /* Debug */,
+				14A5C2DB17EDFAAB009937F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14A5C2DC17EDFAAB009937F4 /* Build configuration list for PBXNativeTarget "Besq" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14A5C2DD17EDFAAB009937F4 /* Debug */,
+				14A5C2DE17EDFAAB009937F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14A5C2A317EDFAA9009937F4 /* Project object */;
+}
