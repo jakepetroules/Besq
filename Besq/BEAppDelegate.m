@@ -220,7 +220,10 @@
     {
         NSArray *files = [[sender draggingPasteboard] propertyListForType:NSFilenamesPboardType];
         for (NSString *fileName in files)
-            [[NSApp delegate] application:nil openFile:fileName];
+        {
+            NSApplication *app = [NSApplication sharedApplication];
+            [[app delegate] application:app openFile:fileName];
+        }
 
         return YES;
     }
